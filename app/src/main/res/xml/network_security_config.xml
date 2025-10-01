@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- All APIs now use HTTPS - no cleartext traffic needed -->
+</network-security-config>
