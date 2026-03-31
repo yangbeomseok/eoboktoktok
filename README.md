@@ -1,4 +1,4 @@
-# eoboktoktok
+# 🎣 eoboktoktok
 
 **DIVE 2025 글로벌 해커톤 대상 수상작**
 
@@ -13,7 +13,7 @@
 - **심박수 모니터링** - 안전한 낚시를 위한 실시간 심박 측정
 - **나침반** - 자기 센서 기반 방위 표시
 
-## 기술 스택
+## 🛠 기술 스택
 
 | 분류 | 기술 |
 |------|------|
@@ -66,7 +66,7 @@ android {
 
 Android Studio에서 프로젝트를 열고 Galaxy Watch를 연결한 뒤 실행하면 됩니다.
 
-## 프로젝트 구조
+## 📁 프로젝트 구조
 
 ```
 app/src/main/java/com/dive/weatherwatch/
@@ -94,7 +94,7 @@ app/src/main/java/com/dive/weatherwatch/
 └── utils/                        # 유틸리티
 ```
 
-## 수상
+## 🏆 수상
 
 - DIVE 2025 글로벌 해커톤 대상 (1위)
 
