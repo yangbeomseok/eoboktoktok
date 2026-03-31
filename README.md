@@ -1,17 +1,17 @@
-# Hackathon_DIVE_2025_Multimodal_LLM_Galaxy_Watch_Agent
+# eoboktoktok
 
-**글로벌 해커톤 DIVE 2025 대상 수상작**
+**DIVE 2025 글로벌 해커톤 대상 수상작**
 
-갤럭시 워치용 낚시 도우미 앱 **어복톡톡**. 실시간 해양 데이터와 Gemini AI를 결합하여 낚시꾼에게 최적의 조언을 제공한다.
+갤럭시 워치에서 동작하는 낚시 도우미 앱입니다. 실시간 해양 데이터와 Gemini AI를 활용하여 낚시에 필요한 정보와 조언을 제공합니다.
 
 ## 주요 기능
 
-- **AI 낚시 어드바이저**: Gemini AI 기반 음성 대화형 조언
-- **실시간 해양 정보**: 날씨, 조석, 수온, 파고
-- **낚시 포인트 추천**: GPS 기반 주변 포인트 검색 및 길안내
-- **통발 위치 추적**: 설치한 통발 위치 저장/관리
-- **심박수 모니터링**: 안전한 낚시를 위한 실시간 심박 측정
-- **나침반**: 자기 센서 기반 방위 표시
+- **AI 낚시 어드바이저** - Gemini AI 기반 음성 대화형 조언
+- **실시간 해양 정보** - 날씨, 조석, 수온, 파고
+- **낚시 포인트 추천** - GPS 기반 주변 포인트 검색 및 길안내
+- **통발 위치 추적** - 설치한 통발 위치 저장 및 관리
+- **심박수 모니터링** - 안전한 낚시를 위한 실시간 심박 측정
+- **나침반** - 자기 센서 기반 방위 표시
 
 ## 기술 스택
 
@@ -25,7 +25,7 @@
 | 네트워크 | Retrofit 2, OkHttp |
 | 비동기 | Kotlin Coroutines |
 
-## 설치
+## 설치 방법
 
 ### 요구사항
 - Android Studio Hedgehog 이상
@@ -36,11 +36,11 @@
 ### 빌드
 
 ```bash
-git clone https://github.com/yangbeomseok/Hackathon_DIVE_2025_Multimodal_LLM_Galaxy_Watch_Agent.git
-cd Hackathon_DIVE_2025_Multimodal_LLM_Galaxy_Watch_Agent
+git clone https://github.com/yangbeomseok/eoboktoktok.git
+cd eoboktoktok
 ```
 
-루트 디렉토리에 `local.properties` 파일을 만들고 API 키 설정:
+루트 디렉토리에 `local.properties` 파일을 생성하고 API 키를 설정합니다.
 
 ```properties
 GEMINI_API_KEY=your_key
@@ -49,7 +49,7 @@ BADA_TIME_API_KEY=your_key
 DATA_GO_KR_API_KEY=your_key
 ```
 
-`build.gradle.kts`(Module: app)에 BuildConfig 필드 추가:
+`build.gradle.kts`(Module: app)에 BuildConfig 필드를 추가합니다.
 
 ```kotlin
 android {
@@ -64,7 +64,7 @@ android {
 }
 ```
 
-Android Studio에서 프로젝트 열고 Galaxy Watch 연결 후 실행.
+Android Studio에서 프로젝트를 열고 Galaxy Watch를 연결한 뒤 실행하면 됩니다.
 
 ## 프로젝트 구조
 
