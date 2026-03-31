@@ -96,7 +96,7 @@ app/src/main/java/com/dive/weatherwatch/
 
 ## 🏆 수상
 
-- DIVE 2025 글로벌 해커톤 대상 (1위)
+- DIVE 2025 글로벌 해커톤 발제사 1등상 (연안빅데이터플랫폼)
 
 ## 연락처
 
